@@ -30,17 +30,14 @@ public class Q1940 {
         while (i < j) {
             if (A[i] + A[j] < M) {
                 i++;
-            }
-            else if (A[i] + A[j] > M) {
+            } else if (A[i] + A[j] > M) {
                 j--;
-            }
-            else {
+            } else {
                 i++;
                 j--;
                 count += 1;
             }
         }
-
         System.out.print(count);
     }
 }
