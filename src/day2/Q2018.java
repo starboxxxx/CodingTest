@@ -5,6 +5,14 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+/**
+ * 투포인터 문제
+ * sum > N -> sum - start_index, start_index++
+ * sum < N -> end_index++, sum + end_index</>
+ * sum == N -> end_index++, sum = sum + end_index, count++
+ */
+
+
 public class Q2018 {
 
 
